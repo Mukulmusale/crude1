@@ -6,4 +6,8 @@ function test(){
     let user =localStorage.setItem("uid", uid);
     let pass =localStorage.setItem("pw", pw);
     let em =localStorage.setItem("email", email);
+    localStorage.removeItem(uid)
+    localStorage.removeItem(pw)
+    localStorage.removeItem(email)
+
 }
